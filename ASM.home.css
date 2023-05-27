@@ -1,0 +1,115 @@
+*{margin: 0; padding: 0;box-sizing: border-box;}
+.wrapper{
+    width: 1040px;
+    margin: auto;
+    background: rgb(252, 250, 250);
+}
+.header-main{height: 100px; text-align: center;}
+.header-main-stem{height: 130px;}
+.nav-main{
+    height: 50px;
+    background: rgb(166, 164, 164);
+}
+.nav-main ul li{
+    list-style: none;
+    float: left;
+    line-height: 50px;
+    padding: 0 30px;
+   
+}
+.nav-main ul li a{color: #101010;text-decoration: none;}
+.nav-main ul li:hover{background: rgb(215, 214, 214);}
+.slider{ height: 300px; background: rgb(216, 216, 216);}
+.slider-stem{width: 55%;}
+.pro-news{
+    height: 330px; padding: 20px;  display: grid;
+    border: 1px solid gainsboro ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:15px; background:  rgb(244, 238, 238);
+}
+.pro-news-stem{
+    height: 280px;width: 300px;padding: 5px;
+    border: 1px solid gainsboro ;
+}
+.pro-news-stem:hover{ border: 5px solid rgb(132, 127, 127)}
+.pro-news-anh{width: 100%;}
+
+h2{color: rgb(9, 9, 9);padding-left: 30px;}
+p{color: rgb(48, 48, 48);}
+.giasoc{color: red;}
+.pro-bestsale{
+     background:  rgb(244, 238, 238);
+    height: 280px;padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:15px;
+    border: 1px solid gainsboro ;
+}
+.pro-bestsale-stem{
+    border: 1px solid gainsboro;
+    padding: 5px;
+}
+.pro-bestsale-anh{width: 100%;}
+.pro-bestsale-stem:hover{
+    border: 5px solid gray;
+}
+.galaxy{
+    background: rgb(244, 238, 238);
+    height: 180px;
+    border: 1px solid gainsboro ;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-gap: 5px;
+}
+.galaxy-anh{
+    border: 1px solid gainsboro;
+    padding: 5px;
+    font-size: 20px;
+}
+.galaxy-anh:hover{
+    border: 5px solid gray;
+}
+.didong{color: red;}
+.galaxy-stem{width: 100%;}
+.mauxe{
+    background: rgb(220, 220, 220);
+    height: 250px;width: 1040px;
+    border: 1px solid gainsboro;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:5px;
+    padding: 12px;
+}
+
+.mauxe-stem{
+    color: red;
+    padding: 5px;
+    height: 225px;
+    border: 1px solid gainsboro ;
+}
+.mauxe-stem:hover{border: 5px solid gray;}
+.mauxe-anh{width: 180px;height: 120px;}
+a.anh{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;color: black;
+}
+a.hienthi{
+    text-decoration: none;
+    color: red;
+}
+.footer-main{
+    height: 200px;
+    background: rgb(178, 174, 174);
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+    padding: 15px;
+    
+}
+.end{width: 100%;}
+.footer-main-stem{
+    padding: 10px;
+}
+.footer-main-end{color: white;}
