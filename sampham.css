@@ -1,0 +1,114 @@
+*{padding: 0; margin: 0;box-sizing: border-box;}
+.wrapper{
+    width: 1040px;
+    margin: auto;
+    background: rgb(245, 244, 244);
+}
+.logo{
+    height: 90px; text-align: center;
+}
+.logo>img{height: 130px;}
+.menu{
+    height: 50px;
+    background: rgb(166, 164, 164);
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    line-height: 50px;
+    padding: 0 30px;
+}
+.menu ul li a{
+    color: black; text-decoration: none;
+}
+.menu ul li:hover{
+    background:  rgb(215, 214, 214);
+}
+.banner{height: 300px; background: rgb(216, 216, 216);}
+.banner>img{width: 55%;}
+.sanpham{
+    height: 430px;
+   
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;padding: 20px;
+    background: rgb(245, 244, 244);
+}
+.sanpham-stem{
+   
+    padding: 10px;
+    height: 285px;
+}
+.sanpham-stem:hover{
+    border: 5px solid gray;
+}
+.sanpham-anh>img{
+    width: 100%;
+}
+.gia>p{
+    color: red;
+}
+.gia p s{
+    color: black;
+}
+.chon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+.chon>p{
+    background: rgb(151, 151, 151);
+    text-align: center;
+   
+    padding: 5px 15px;
+}
+.chon>p:hover{
+    background: rgb(86, 84, 84);
+}
+.chon p a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.sanpham-stem>h3{
+    color: rgb(100, 100, 101);
+    text-align: center;
+}
+.sanpham-stem-t{
+    padding-left: 82px;
+    padding-top: 35px;
+    background: rgb(218, 216, 216);
+    border-radius: 40px;
+}
+.thongtin{
+    width: 350px;
+    /* border: 1px solid black; */
+    height: 320px;
+    padding: 7px;
+}
+.thongtin tr td{
+    line-height: 40px;
+    padding-left: 10px;
+    border: 1px solid black;
+    
+}
+.xe{color: rgb(17, 18, 18);}
+.end{
+    height: 400px;
+}
+.footer-main{
+    height: 200px;
+    background: rgb(178, 174, 174);
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+    padding: 15px;
+    
+}
+.end{width: 90px;
+    height: 190px;
+}
+.footer-main-stem{
+    padding: 10px;
+}
+.footer-main-end{color: rgb(90, 87, 87);}

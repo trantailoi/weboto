@@ -1,0 +1,28 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+.wrapper{
+    width: 1040px;
+    margin: auto;
+    background: rgb(245, 244, 244);
+}
+.audi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:15px;
+    height: 400px;
+    text-align: center;
+}
+.audi-chu{
+    padding: 20px;
+    line-height: 25px;
+}
+.mercedes{
+    display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-gap:15px;
+ height: 450px;
+ text-align: center; 
+}
+.merceder-chu{
+    padding-top: 65px;
+    line-height: 25px;
+}

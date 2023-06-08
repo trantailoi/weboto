@@ -1,0 +1,61 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.wrapper{
+    padding: 10px;
+    width: 540px;height: 750px;
+    margin: auto;
+    background:  rgb(229, 227, 227);;
+    border: 5px solid rgb(57, 54, 54);
+}
+
+
+.thongtin{
+    padding: 20px;
+  display: grid;
+  grid-template-columns:30% 1fr;
+  grid-gap:10px;
+}
+.wrapper input{
+    padding-left: 80px;
+}
+input{
+    
+    border-radius: 5px;
+    line-height: 20px;
+}
+p{
+    line-height: 40px;
+}
+.thongtinxe{
+    padding: 10px;
+    padding-left: 40px;
+}
+h4{
+    background: rgb(114, 114, 114);
+    color: white;
+}
+.luu{
+    text-decoration: none;
+    color: aliceblue;
+    background: rgb(87, 87, 87);
+}
+.luu:hover{
+    background: rgb(151, 150, 150);
+}
+.cuoi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:20px;
+    text-align: center;
+    padding: 20px;
+}
+.chon{
+    text-decoration: none;
+    background: rgb(158, 156, 156);
+    color: white;
+    padding: 5px 50px;
+}
+.chon:hover{
+    background: rgb(72, 69, 69);
+}
